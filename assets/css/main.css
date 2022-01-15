@@ -1,0 +1,342 @@
+/*********************
+Name: Hope Watson
+Coding 0y
+Purpose: Stylesheet for all pages and templates in site
+**********************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    min-height: 100vh;
+}
+
+/*header template styles*/
+
+header {
+    background-color: #e49227;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 800;
+    padding: .2em;
+}
+
+li {
+    margin: 0 .4em .4em 0;
+    display: inline;
+}
+
+li a {
+    color: whitesmoke;
+}
+
+/*home styles*/
+
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+
+.title {
+    font-family: 'Courgette', cursive, sans-serif;
+    color: rgb(20, 19, 19);
+    text-align: center;
+    font-size: 4em;
+    margin: 1em;
+}
+
+#map {
+    height: 680px;
+    width: 100%;
+    margin: auto; 
+}
+
+#categories-link {
+    font-size: 1em;
+    color: black;
+    font-weight: 200;
+    font-style: italic;
+}
+
+h4 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.home-wrapper {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-home-wrapper img {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border-top: solid 5px whitesmoke;
+    border-bottom: solid 5px whitesmoke;
+}
+
+.main-home-wrapper a {
+    font-style: italic;
+}
+
+.main-home-wrapper a {
+    color: black;
+    font-size: 1em;
+}
+
+/*about styles*/
+
+.about-wrapper {
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.about-main-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+}
+
+.about-section-wrapper {
+    padding: 1em;
+    background-color: rgb(222, 236, 225);
+    border-radius: inherit;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.about-section-wrapper p {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    width: 100%;
+    margin-bottom: .5em;
+    padding: .5em;
+}
+
+#about-img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*contact styles*/
+
+#msg {
+    padding: 1em;;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    color:rgb(214, 71, 71); 
+}
+
+.form-container {
+    padding: 2em;
+    margin: auto;
+    width: 100%;
+}
+
+.form-container h1 {
+    font-family: 'Courgette', cursive, sans-serif;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+}
+
+label, input {
+    width: 90%;
+    font-size: 1.2em;
+    padding: 3%;
+}
+
+label {
+    text-align: center;
+}
+
+#message-input {
+    width: 90%;
+    margin: 3%;
+    padding: 3%;
+    font-size: 1.2em;
+}
+
+#contact-submit {
+    width: 90%;
+    margin: 3% 0 3% 0;
+    padding: 3%;
+    background-color: rgb(125, 204, 118);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: whitesmoke;
+}
+#contact-submit:hover {
+    background-color: rgb(115, 190, 108);
+}
+
+#contact-clear {
+    width: 90%;
+    padding: 3%;
+    background-color: rgb(235, 107, 107);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+#contact-clear:hover {
+    background-color: rgb(214, 71, 71);;
+}
+
+/*news styles*/
+
+.news-wrapper, .news-item-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 1em;
+}
+
+.important1 {
+    background-color: yellow;
+}
+
+.news-item-wrapper {
+    text-align: center;
+}
+
+.news-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-main-wrapper h3 {
+    padding: .5em;
+}
+
+.news-main-wrapper a, .news-wrapper div a {
+    color: black;
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 2em;
+    text-align: center;
+}
+
+/*footer template styles*/
+
+footer {
+    background-color: #e49227;
+    font-family: 'Courgette', cursive, sans-serif;
+    font-size: 1.2em;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    padding: 2em;
+    margin-top: 2em;
+}
+
+/*media queries for larger screens*/
+
+@media (min-width: 600px) {
+    /*home styles*/
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .main-home-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    .main-home-wrapper img {
+        border: solid 5px whitesmoke;
+    }
+    
+    .main-home-wrapper a {
+        font-style: italic;
+    }
+    
+    .main-home-wrapper a {
+        color: black;
+        font-size: 1em;
+    }
+    .category-wrapper {
+        margin: 0 5px 0 5px;
+    }
+    /*about styles*/
+    .about-wrapper {
+        max-width: 60%;
+    }
+    .about-main-wrapper {
+        width: 100%;
+    } 
+    .about-main-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+    /*news styles*/
+    .news-wrapper {
+        width: 70%;
+    }
+    
+  }
+  /*contact styles*/
+  @media screen and (min-width: 860px) {
+
+    .form-container, .user-message-container {
+        max-width: 50%;
+    }
+}
