@@ -24,3 +24,6 @@ The purpose of this project was to get an introduction into working with MVC des
   <li>The news views include the index page where all news items are listed and the view page where each item will be displayed.</li>
   <li>The templates pages include the common header and footer for all pages.</li>
 </ul>
+
+<h2>Leaflet Map</h2>
+<p>The leaflet map's purpose was to add a map to the front page of the recipe site where the user can click on country images on the map to see recipes from that part of the world.  A map object with cutom wide view is included with map icon objects that include flag images and marked on to specific locations on the map object.  Links are added on the icon locations with href attributes that lead to a recipe from that part of the world and bound to the markers on the map.
